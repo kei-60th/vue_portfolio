@@ -8,10 +8,10 @@
         <li>twitter: @kei_60th</li>
         </ul>
       <div class = "link">
-        <a href="https://github.com/kei-60th">github</a>
+        <a href="https://github.com/kei-60th">Kei's github</a>
       </div>
       <div class = "link">
-        <a href="https://qiita.com/kei-60th">qiita</a>
+        <a href="https://qiita.com/kei-60th">Kei's qiita</a>
       </div>
     </div>
   </div>
@@ -57,6 +57,7 @@ ul{
 }
 
 li{
+  color:#FF8A80;
 }
 
 </style>

@@ -121,7 +121,7 @@
             <v-card-subtitle class="pb-0">Ruby, Rails, jQuery, MySQL, AWS</v-card-subtitle>
 
             <v-card-text class="text--primary">
-              <div>スクールのチーム開発の成果物で、<br>フリマアプリのクローンサイトとなります。<br>自分はユーザー登録機能,購入機能を担当しました</div>
+              <div>スクールのチーム開発の成果物で、<br>フリマアプリのクローンサイトです。<br>自分はユーザー登録機能,購入機能を担当しました</div>
             </v-card-text>
 
             <!-- <v-card-actions>
