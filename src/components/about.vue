@@ -41,6 +41,7 @@
 
 .background{
   background-color:whitesmoke;
+  min-height:100vh;
 }
 
 .content{
@@ -62,7 +63,7 @@
 }
 
 .profilecard{
-  margin-bottom: 100px;
+  margin-bottom:30px;
 }
 
 .imagewrapper{

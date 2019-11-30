@@ -154,6 +154,7 @@
 
 .background{
   background-color:whitesmoke;
+  min-height:100vh;
 }
 
 .content{
