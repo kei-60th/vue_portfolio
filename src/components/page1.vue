@@ -22,7 +22,7 @@
 .portfolio-title{
     color: white;
     font-weight: bold;
-    padding: 20% 0;
+    padding: 15% 0;
     font-size: 300%;
     opacity: 0.7;
     letter-spacing: 5px;
