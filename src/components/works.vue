@@ -182,7 +182,7 @@
 }
 
 .v-card{
-  margin-bottom:10px;
+  margin-bottom:30px;
 }
 
 .v-card__title{

@@ -3,6 +3,7 @@
     <div class = "content">
       <h1 class= "pagetitle">Profile</h1>
       <div class = "cardwrapper">
+        <div class = "profilecard">
           <v-card
             class="mx-auto"
             max-width="400"
@@ -21,11 +22,12 @@
             <v-card-text class="text--primary">
               <div>愛知県出身です。<br>大学卒業後,Sier系のIT企業に勤めておりました。<br>その後8月に退職して同月にプログラミングスクールに通い、11月に卒業しました。<br>卒業後もプログラミングの学習は継続して行なっております。</div>
             </v-card-text>
-            <v-card-title>主な学習分野</v-card-title>
+            <v-card-title class = "study">主な学習分野</v-card-title>
             <v-card-subtitle class="pb-0">Haml, SCSS,Ruby,Ruby on Rails, JavaScript, jQuery, GitHub, AWS, Vue.js</v-card-subtitle>
             <v-card-text class="text--primary">
             </v-card-text>
           </v-card>
+        </div>
       </div>
     </div>
   </div>
@@ -59,12 +61,20 @@
   justify-content:center;
 }
 
+.profilecard{
+  margin-bottom: 100px;
+}
+
 .imagewrapper{
   background-color:gray;
 }
 
 .profile-img{
   margin:0px 40px 0;
+}
+
+.study{
+  padding-top:0;
 }
 
 </style>

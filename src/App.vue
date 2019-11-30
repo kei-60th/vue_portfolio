@@ -44,9 +44,9 @@
   <div id="app">
     <div class="header">
       <router-link to="/" class="headerlink">Home</router-link>
-      <router-link to="/page2" class="headerlink">About</router-link>
-      <router-link to="/page3" class="headerlink">Works</router-link>
-      <router-link to="/page4" class="headerlink">Link</router-link>
+      <router-link to="/about" class="headerlink">About</router-link>
+      <router-link to="/works" class="headerlink">Works</router-link>
+      <router-link to="/link" class="headerlink">Link</router-link>
     </div>
     <router-view/>
   </div>

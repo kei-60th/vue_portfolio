@@ -2,6 +2,8 @@
   <div class = "background">
     <div class = "content">
       <h1 class= "pagetitle">Link</h1>
+      
+      
     </div>
   </div>
 </template>
