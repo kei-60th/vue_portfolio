@@ -48,8 +48,10 @@
               src="../assets/pompompro.png"
             >
             </v-img>
-
-            <v-card-title>Pompompro</v-card-title>
+              <v-card-title class="title-link">
+                <div>Pompompro</div>
+                <a class="portfolio-link" href="http://52.199.212.178/">リンク</a>
+              </v-card-title>
             <v-card-subtitle class="pb-0">Ruby, Rails, jQuery, MySQL, AWS</v-card-subtitle>
 
             <v-card-text class="text--primary">
@@ -117,7 +119,10 @@
               src="../assets/no_image.png"
             >
             </v-img>
-            <v-card-title>freemarket_sample_60d</v-card-title>
+            <v-card-title class="title-link">
+                <div>freemarket_sample_60d</div>
+                <a class="portfolio-link" href="http://13.115.235.126//">リンク</a>
+            </v-card-title>
             <v-card-subtitle class="pb-0">Ruby, Rails, jQuery, MySQL, AWS</v-card-subtitle>
 
             <v-card-text class="text--primary">
@@ -184,6 +189,14 @@
 
 .v-card{
   margin-bottom:30px;
+}
+
+.title-link{
+  display:flex;
+}
+
+.portfolio-link{
+  margin-left:20px;
 }
 
 .v-card__title{
